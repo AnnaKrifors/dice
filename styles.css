@@ -1,23 +1,28 @@
 body {
-  background-color: #52796f
+  background-color: #52796f;
 }
 
 .container {
-    width: 100%;
-    margin: auto;
-    text-align: center;
-  }
-  
-  .dice {
-    text-align: center;
-    display: inline-block;
-  
-  }
-  h1 {
-    margin: 30px;
-    
-    font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
-    font-size: 3rem;
-    color: #DACA88
-  }
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+h1 {
+  margin: 30px;
+
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 3rem;
+  color: #daca88;
+}
+
+.img1 {
+  transform-style: preserve-3d;
+  transition: transform 0.6s ease-in-out;
+  cursor: pointer;
+}
