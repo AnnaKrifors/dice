@@ -20,3 +20,19 @@ h1 {
   font-size: 3rem;
   color: #daca88;
 }
+
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.blink {
+  animation: blink 0.5s ease-in-out; /* Anpassa tiden för blinkningen här */
+}
